@@ -4,6 +4,8 @@
 
 # JS Refactor Package
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hax/js-refactor.svg)](https://greenkeeper.io/)
+
 JavaScript refactoring language plugin for [Atom](https://atom.io/).
 **This package requires [refactor](https://atom.io/packages/refactor) package.**
 You can install from the preference pane.
