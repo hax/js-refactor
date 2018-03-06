@@ -12,6 +12,7 @@ class Ripper
 
   @scopeNames: [
     'source.js'
+    'source.mjs'
     'source.js.jsx'
     'source.babel'
   ]
