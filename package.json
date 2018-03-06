@@ -1,7 +1,7 @@
 {
   "name": "js-refactor",
   "main": "./lib/js_refactor",
-  "version": "0.7.5",
+  "version": "0.8.0",
   "description": "Refactoring support for JavaScript",
   "repository": "https://github.com/hax/js-refactor",
   "license": "MIT",
