@@ -23,12 +23,14 @@
   "scripts": {
     "test": "apm test"
   },
+  "atomTestRunner": "atom-jasmine3-test-runner",
   "dependencies": {
     "babel-traverse": "^7.0.0-beta.3",
     "babylon": "^7.0.0-beta.40",
     "debug": "^3.1.0"
   },
   "devDependencies": {
+    "atom-jasmine3-test-runner": "^3.1.0",
     "grunt": "^0.4",
     "grunt-este-watch": "^0.1",
     "grunt-notify": "^0.4"
