@@ -17,11 +17,37 @@ class Ripper
   ]
 
   parseOptions:
-    sourceType: 'module'
+    sourceType: 'unambiguous'
     allowImportExportEverywhere: true
     allowReturnOutsideFunction: true
     allowSuperOutsideMethod: true
-    plugins: ['*']
+    plugins: [
+      '*' # see https://github.com/babel/babel/issues/7508
+      'jsx'
+      # 'typescript'
+      'flow'
+      'flowComments'
+      'doExpressions'
+      'objectRestSpread'
+      'decorators2'
+      'classProperties'
+      'classPrivateProperties'
+      'classPrivateMethods'
+      'exportDefaultFrom'
+      'exportNamespaceFrom'
+      'asyncGenerators'
+      'functionBind'
+      'functionSent'
+      'dynamicImport'
+      'numericSeparator'
+      'optionalChaining'
+      'importMeta'
+      'bigInt'
+      'optionalCatchBinding'
+      'throwExpressions'
+      'pipelineOperator'
+      'nullishCoalescingOperator'
+    ]
 
   constructor: ->
     @context = new Context

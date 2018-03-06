@@ -24,9 +24,9 @@
     "test": "apm test"
   },
   "dependencies": {
-    "babel-traverse": "^6.21.0",
-    "babylon": "^6.14.1",
-    "debug": "^2.0.0"
+    "babel-traverse": "^7.0.0-beta.3",
+    "babylon": "^7.0.0-beta.40",
+    "debug": "^3.1.0"
   },
   "devDependencies": {
     "grunt": "^0.4",
