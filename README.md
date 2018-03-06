@@ -23,8 +23,16 @@ track [#6](https://github.com/hax/js-refactor/issues/6) for more details.
 
 ## Changelog
 
+### v0.8.0 on 2018-03-06
+* Upgrade to babylon 7 beta, which support more new syntax
+* Add `.mjs` file extension
+* Enable tests
+
+### v0.7.5 on 2016-12-28
+* Fix #20, #25
+
 ### v0.7.2 on 2016-06-30
-*	Use original debug package to solve install failures, fix #8, #15
+* Use original debug package to solve install failures, fix #8, #15
 * Support different styles for references/mutations/declaration
 * Fix #14
 
